@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "watch": true,
+        "lib": ["DOM"],
+        "moduleResolution": "Node",
+        "jsx": "react-jsx"
+    },
+    "compileOnSave": true
+}

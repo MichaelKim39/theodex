@@ -1,13 +1,55 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
+
+h1, h2 {
+    font-family: 'pokemon_hollow'
+}
+
+@font-face {
+    font-family: "averia_serif_libre_light";
+    src: local("AveriaSerifLibre-Light"),
+      url("./fonts/AveriaSerifLibre-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "averia_serif_libre_bold";
+    src: local("AveriaSerifLibre-Bold"),
+    url("./fonts/AveriaSerifLibre-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "averia_serif_libre";
+    src: local("AveriaSerifLibre"),
+    url("./fonts/AveriaSerifLibre-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "alte_haas_grotesk";
+    src: local("AlteHaasGrotesk"),
+    url("./fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "pokemon_hollow";
+    src: local("Pokemon-Hollow"),
+        url("./fonts/Pokemon-Hollow.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "pokemon_solid";
+    src: local("Pokemon-Solid"),
+        url("./fonts/Pokemon-Solid.ttf") format("truetype");
+}
+
+::-webkit-scrollbar {display:none;}
