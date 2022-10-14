@@ -8,20 +8,21 @@ const Root = styled.div `
     background-color: ${COLORS.secondary};
     position: absolute;
     top: 0;
-    padding: 0px 20px;
+    padding: 0px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 `;
 const Title = styled.h2 `
     color: ${COLORS.highlight};
-    font-size: 30px;
+    font-size: 35px;
 `;
-const Text = styled.text `
-    font-size: 16px;
+const Text = styled.p `
+    font-size: 22px;
     font-family: 'pokemon_solid';
+    color: ${COLORS.highlight};
 `;
 const Header = () => {
-    return (_jsxs(Root, { children: [_jsx(Link, { to: "/", style: { textDecoration: 'none' }, children: _jsx(Title, { children: "Th\u00E9omon" }) }), _jsx(Link, { to: "/theomons", style: { textDecoration: 'none' }, children: _jsx(Text, { children: "All Theomons" }) })] }));
+    return (_jsxs(Root, { className: "shadow", children: [_jsx(Link, { to: "/", style: { textDecoration: 'none' }, children: _jsx(Title, { children: "Th\u00E9omon" }) }), _jsx(Link, { to: "/theomons", style: { textDecoration: 'none' }, children: _jsx(Text, { children: "All Theomons" }) })] }));
 };
 export default Header;

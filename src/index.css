@@ -16,6 +16,16 @@ h1, h2 {
     font-family: 'pokemon_hollow'
 }
 
+img {
+    pointer-events: none;
+}
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 54px -8px rgba(94,52,38,0.45);
+    -moz-box-shadow: 10px 10px 54px -8px rgba(94,52,38,0.45);
+    box-shadow: 10px 10px 54px -8px rgba(94,52,38,0.45);
+}
+
 @font-face {
     font-family: "averia_serif_libre_light";
     src: local("AveriaSerifLibre-Light"),
